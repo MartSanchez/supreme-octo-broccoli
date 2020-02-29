@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Breaking Bad</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Breaking Bad quiz</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Who is the Writer & Director of Breaking Bad?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class="questions">Who is this character?</p>
+<img src = "Walter.jpg" id = "pic"> <br> <br>
+<input id = "textbox" type = "text" name = "question2">
+
+<p class = "questions">What is Walter White's nickname</p>
+<input id = "textbox" type = "text" name = "question3">
+
+<p class = "questions">Who is Walter White's sidekick?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "Jesse Pinkman"> Jesse Pinkman<br>
+<input type = "radio" id = "mc" name = "question4" value = "Gus Fring"> Gus Fring<br>
+
+<p class="questions">How many children does Walter White have?</p>
+<input type = "radio" id = "mc" name = "question5" value = "zero"> zero<br>
+<input type = "radio" id = "mc" name = "question5" value = "two"> two<br>
+<input type = "radio" id = "mc" name = "questions" value = "three"> three<br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+
+<input id = "button" type = "button" value = "Answer Sheet" onclick = "window.location.href = 'Answersheet.html'">
+
+</form>
+
+</body>
+</html>
